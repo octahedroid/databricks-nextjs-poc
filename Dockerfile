@@ -23,4 +23,4 @@ ENV PORT 8080
 
 COPY --from=builder /app .
 
-CMD [ "npm", "run", "serve" ]
+CMD [ "npm", "run", "start:prod" ]

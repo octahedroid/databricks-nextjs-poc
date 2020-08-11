@@ -1,0 +1,29 @@
+{
+  "name": "poc-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "serve": "serve out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "js-base64": "^2.5.2",
+    "next": "^9.3.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "semantic-ui-react": "^0.88.2",
+    "serve": "^11.3.0",
+    "styled-components": "^5.0.1"
+  },
+  "proxy": "https://devweb.databricks.com",
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}

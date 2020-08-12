@@ -3,6 +3,7 @@ import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
 import { Base64 } from 'js-base64';
 
+
 const Index = props => (
   <Layout>
     <h1>Databricks Webinars</h1>

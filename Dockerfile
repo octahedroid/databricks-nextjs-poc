@@ -17,7 +17,7 @@ WORKDIR /app
 
 # Default variables (this change on runtime depending the deployment)
 ENV BACKEND_ENV=dev
-ENV BACKEND_SITE=pantheon-rogers-funny-words
+ENV BACKEND_SITE=pantheon-site
 
 ENV PORT 8080
 

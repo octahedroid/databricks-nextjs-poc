@@ -18,6 +18,7 @@ const Index = props => (
           >
             <a>{post.title.rendered}</a>
           </Link>
+          <p>Excerpt: {post.excerpt.rendered}</p>
         </li>
       ))}
     </ul>
